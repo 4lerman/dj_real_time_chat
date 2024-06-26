@@ -1,0 +1,13 @@
+Django>=3.2,<4.0  # Or the version you are using
+djangorestframework>=3.12,<4.0
+djangorestframework-simplejwt==5.3.1
+channels>=3.0,<4.0
+channels-redis>=3.3,<4.0  # If you are using Redis as the channel layer backend
+daphne>=3.0,<4.0  # If you are using Daphne as the ASGI server
+celery>=5.1,<6.0
+django_celery_results==2.5.1
+redis>=3.5,<4.0  # If you are using Redis as the broker for Celery
+pytz  # For time zone support, often required by Django
+asgiref>=3.3,<4.0  # Required by Channels and Daphne
+python-dotenv>=0.19,<1.0  # For managing environment variables
+psycopg2==2.9.9
